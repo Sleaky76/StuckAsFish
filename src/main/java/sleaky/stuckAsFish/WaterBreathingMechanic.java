@@ -6,13 +6,7 @@ import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 
 public class WaterBreathingMechanic {
-
-    public StuckAsFish plugin;
-
-    WaterBreathingMechanic(StuckAsFish plugin) {
-        this.plugin = plugin;
-    }
-
+    
     public boolean isUnderWater(Player p) {
         Location loc = p.getLocation();
         if (!p.isSwimming()) {
