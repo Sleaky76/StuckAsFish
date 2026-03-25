@@ -1,0 +1,8 @@
+name: StuckAsFish
+version: '1.0'
+main: sleaky.stuckAsFish.StuckAsFish
+api-version: '1.21'
+commands:
+  reverse-breathing:
+    usage: /reverse-breathing
+
