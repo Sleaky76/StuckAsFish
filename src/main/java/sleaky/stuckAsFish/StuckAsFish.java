@@ -13,7 +13,7 @@ public final class StuckAsFish extends JavaPlugin {
     public void onEnable() {
         getCommand("reverse-breathing").setExecutor(new reverseBreathingCommand());
 
-        WaterBreathingMechanic WBM = new WaterBreathingMechanic(this);
+        WaterBreathingMechanic WBM = new WaterBreathingMechanic();
 
         new BukkitRunnable() {
             @Override
